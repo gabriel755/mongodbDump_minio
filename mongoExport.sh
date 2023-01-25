@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# This code was developed and is maintained by gabriel Fiamete da Rosa.
+# This code was developed and is maintained by Gabriel Fiamete da Rosa.
 
 # VARIÁVEIS GLOBAIS
 echo 'Coloque o ID do S3 aqui:'
