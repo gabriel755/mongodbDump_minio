@@ -38,7 +38,10 @@ fi
 # VERIFICA SE O ARQUIVO FOI CRIADO e IMPORTA PARA O S3.
 if [ -f $DIR_BKP/db_bkp.dump ]; 
 then
-    aws --endpoint-url $S3 s3 cp $DIR_BKP/db.dump $DIR_S3
+    aws --endpoint-url $S3 s3 cp $DIR_BKP/db_bkp.dump $DIR_S3
+else
+    echo 'Arquivo não encontrado. Por favor, verifique o diretório!'
+    exit 1
 fi
 
 echo 'Procedimento finalizado com sucesso!'
