@@ -1,4 +1,4 @@
-# MongoDB export with Minio S3
+# MongoDB export with Minio S3 API
 
 This script was developed with the intention of helping to export a Mongo database that is running with Docker, to use it, just download the repository to a directory on your server and execute the following command:
 
